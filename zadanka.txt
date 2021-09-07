@@ -1,0 +1,24 @@
+#include <iostream>
+#include <ctime>
+#include <cstdlib>
+using namespace std;
+int liczba;
+int wynik;
+
+
+int main()
+{
+    srand(time(NULL));
+   for(int i=0; i<100; i++){
+       
+       cout<<rand()%101<<endl;
+       wynik=wynik + rand()%101;
+        
+       
+       
+   }
+     
+    cout<<"Wynik to "<<wynik;
+
+
+}
