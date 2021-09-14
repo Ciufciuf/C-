@@ -1,0 +1,113 @@
+Zad.1
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int tab[2][2];
+
+    for (int i = 0; i < 2; i++) {
+
+        for (int x = 0; x < 2; x++) {
+            cout << "Podaj liczbe: ";
+            cin >> tab[i][x];
+            
+        }
+        
+    }
+    for (int i = 0; i < 2; i++) {
+
+        for (int x = 0; x < 2; x++) {
+           
+            cout << tab[i][x] << " ";
+
+        }
+        cout << endl;
+    }
+    
+}
+Zad.2
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int tab[2][2];
+    int mac;
+
+    for (int i = 0; i < 2; i++) {
+
+        for (int x = 0; x < 2; x++) {
+            cout << "Podaj liczbe: ";
+            cin >> tab[i][x];
+
+        }
+
+    }
+    for (int i = 0; i < 2; i++) {
+
+        for (int x = 0; x < 2; x++) {
+
+            cout << tab[i][x] << " ";
+
+        }
+        cout << endl;
+    }
+
+
+    mac = tab[0][0] * tab[1][1] - (tab[1][0] * tab[0][1]);
+    cout << mac << endl;
+
+}
+Zad.3
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int tab[2][2];
+
+    for (int i = 0; i < 10; i++) {
+
+        for (int x = 0; x < 10; x++) {
+
+            if (i == x) {
+                tab[i][x] = 1;
+            }
+            else {
+                tab[i][x] = 0;
+            }
+            cout << tab[i][x] << " ";
+        }
+        cout << endl;
+    }
+
+
+}
+Zad.4
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int tab[2][2];
+
+    for (int i = 0; i < 10; i++) {
+
+        for (int x = 0; x < 10; x++) {
+
+            if (i == x) {
+                tab[i][x] = x;
+            }
+            else {
+                tab[i][x] = 0;
+            }
+            cout << tab[i][x] << " ";
+        }
+        cout << endl;
+    }
+
+
+}
+
+
